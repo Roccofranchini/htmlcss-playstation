@@ -3,6 +3,9 @@
     z-index: 1;
 }
 
+.border-radius-15 {
+    border-radius: 15px;
+}
 
 /* -----HEADER----- */
 
@@ -27,6 +30,16 @@
 
 .my-bg-none {
     background-color: rgba(0, 0, 0, 0);
+}
+
+/* JUMBO-GAMES */
+
+.jumbo-games-active-img {
+    border: 3px solid white;
+}
+
+.jumbo-games-active-card {
+    border: 3px solid #4a9bdc;
 }
 
 
