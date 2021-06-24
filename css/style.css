@@ -3,6 +3,10 @@
     z-index: 1;
 }
 
+.text-14 {
+    font-size: 12px;
+}
+
 .border-radius-15 {
     border-radius: 15px;
 }
@@ -100,13 +104,9 @@
     height: 500px;
 }
 
-#jumbo-games {
-    height: 500px;
-}
 
-#playstation5 {
-    height: 400px;
-}
+
+
 
 #jumbo-2 {
     height: 500px;
