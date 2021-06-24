@@ -15,10 +15,21 @@
     width: 200px;
 }
 
+.my-w-300 {
+    width: 300px;
+}
+
 .my-fw-600 {
     font-weight: 600;
 }
 
+.my-h-300 {
+    height: 400px;
+}
+
+.my-bg-light {
+    background-color: rgba(255, 255, 255, 0.4);
+}
 /* -----HEADER----- */
 
 
@@ -46,6 +57,14 @@
     background-position: top;
 }
 
+#jumbo {
+    height: 500px;
+}
+
+#jumbo-2 {
+    height: 500px;
+}
+
 .my-bg-none {
     background-color: rgba(0, 0, 0, 0);
 }
@@ -66,8 +85,12 @@
     background-color: #1F1F1F;
 }
 
+/*PLAISTATION PLUS */
 
-
+#playstation-plus {
+    background-color: #BEBCBB;
+    height: 400px;
+}
 
 
 
@@ -120,18 +143,7 @@
 
 /* LAYOUT */
 
-#jumbo {
-    height: 500px;
-}
 
-#jumbo-2 {
-    height: 500px;
-}
-
-
-#playstation-plus {
-height: 400px;
-}
 
 #sconti {
 height: 400px;
