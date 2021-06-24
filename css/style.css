@@ -11,6 +11,14 @@
     border-radius: 15px;
 }
 
+.my-w-200 {
+    width: 200px;
+}
+
+.my-fw-600 {
+    font-weight: 600;
+}
+
 /* -----HEADER----- */
 
 
@@ -28,6 +36,12 @@
 
 #jumbo {
     background-image: url(../img/img/jumbo-bg.png);
+    background-size: cover;
+    background-position: top;
+}
+
+#jumbo-2 {
+    background-image: url(../img/img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: top;
 }
@@ -98,21 +112,14 @@
 
 
 
+
 /* LAYOUT */
 
 #jumbo {
     height: 500px;
 }
 
-
-
-
-
 #jumbo-2 {
-    height: 500px;
-}
-
-#nuove-uscite {
     height: 500px;
 }
 
