@@ -1,4 +1,4 @@
-/* ----HEADER----- */
+/* -----HEADER----- */
 
 
 #logo-sony {
@@ -9,8 +9,19 @@
     height: 40px;
 }
 
+/* -----MAIN----- */
 
+/* JUMBO */
 
+#jumbo {
+    background-image: url(../img/img/jumbo-bg.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.my-bg-none {
+    background-color: rgba(0, 0, 0, 0);
+}
 
 
 
