@@ -27,6 +27,10 @@
     height: 400px;
 }
 
+.my-w-400 {
+    width: 400px;
+}
+
 .my-bg-light {
     background-color: rgba(255, 255, 255, 0.4);
 }
@@ -92,7 +96,12 @@
     height: 400px;
 }
 
+/* PLAYSTATION NOW */
 
+#playstation-now {
+    background-color: #171A2C;
+    height: 400px;
+}
 
 
 
@@ -143,15 +152,6 @@
 
 /* LAYOUT */
 
-
-
-#sconti {
-height: 400px;
-}
-
-#playstation-now {
-height: 400px;
-}
 
 #social-media {
 height: 400px;
