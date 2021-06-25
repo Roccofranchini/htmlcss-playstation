@@ -57,6 +57,16 @@
     color: #7C9EEF;
 }
 
+#header .box-sh {
+    box-shadow: 0 0 2px 2px #212529;
+    border-radius: 15px;
+    padding: 4px 0;
+}
+
+#header .box-sh:hover {
+    box-shadow: 0 0 2px 2px #ffff;
+}
+
 /* -----MAIN----- */
 
 /* JUMBO */
