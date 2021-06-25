@@ -40,7 +40,15 @@
 }
 
 .my-b-4 {
-    border: 4px solid #DC3545;
+    border: 4px solid;
+}
+
+.my-bc-red {
+    border-color: #DC3545;;
+}
+
+.my-bc-blu {
+    border-color: #0D6EFD;;
 }
 
 .my-bg-light {
@@ -140,6 +148,18 @@
 .jumbo-games-transform:hover {
     transform: translateY(-15px);
 }
+/* PLAYSTATION 5 */
+
+#playstation5 .box-sh {
+    
+    border-radius: 15px;
+    padding: 4px 0;
+}
+
+#playstation5 .box-sh:hover {
+    box-shadow: 0 0 2px 2px #ffff;
+}
+
 
 /* USCITE */
 
