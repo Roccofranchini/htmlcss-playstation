@@ -23,6 +23,10 @@
     font-weight: 600;
 }
 
+.my-h-100 {
+    height: 50px;
+}
+
 .my-h-300 {
     height: 400px;
 }
@@ -103,64 +107,56 @@
     height: 400px;
 }
 
+/* FOOTER */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* LAYOUT */
-
-
-#social-media {
-height: 400px;
+footer {
+    background-color: #00439C;
 }
 
 
 
 
-.brdr {
-    border: 1px dashed black;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
