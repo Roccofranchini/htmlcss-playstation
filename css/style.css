@@ -121,10 +121,24 @@
 
 .jumbo-games-active-img {
     border: 3px solid white;
+    transition: transform 1s;
 }
 
 .jumbo-games-active-card {
     border: 3px solid #4a9bdc;
+    transition: transform 1s;
+}
+
+#jumbo-games .jumbo-games-active-card:hover {
+    transform: translateY(-15px);
+}
+
+.jumbo-games-transform {
+    transition: transform 1s;
+}
+
+.jumbo-games-transform:hover {
+    transform: translateY(-15px);
 }
 
 /* USCITE */
