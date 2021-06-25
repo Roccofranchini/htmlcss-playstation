@@ -148,13 +148,20 @@
 /* PLAYSTATION 5 */
 
 #playstation5 .box-sh {
-    
     border-radius: 15px;
     padding: 4px 0;
 }
 
 #playstation5 .box-sh:hover {
     box-shadow: 0 0 2px 2px #ffff;
+}
+
+#playstation5 .img-fltr {
+    filter: opacity(0.5);
+}
+
+#playstation5 .img-fltr:hover {
+    filter: opacity(1);
 }
 
 
