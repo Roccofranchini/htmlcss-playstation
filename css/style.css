@@ -49,6 +49,14 @@
     height: 40px;
 }
 
+#header .navbar .container-fluid ul .nav-link {
+    color: black;
+}
+
+#header .navbar .container-fluid ul .nav-link:hover {
+    color: #7C9EEF;
+}
+
 /* -----MAIN----- */
 
 /* JUMBO */
