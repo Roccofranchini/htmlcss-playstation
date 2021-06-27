@@ -232,6 +232,20 @@ footer {
     background-color: #00439C;
 }
 
+#footer-logo {
+    height: 80px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
 
 
 
