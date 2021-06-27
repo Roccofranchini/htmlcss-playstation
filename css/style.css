@@ -51,6 +51,10 @@
     border-color: #0D6EFD;;
 }
 
+.my-bc-white {
+    border-color: white;;
+}
+
 .my-bg-light {
     background-color: rgba(255, 255, 255, 0.4);
 }
@@ -120,6 +124,16 @@
     box-shadow: 0 0 2px 2px black;
 }
 
+#jumbo-2 .box-sh {
+    box-shadow: 0 0 2px 2px #DC3545;
+    border-radius: 15px;
+    padding: 4px 0;
+}
+
+#jumbo-2 .box-sh:hover {
+    box-shadow: 0 0 2px 2px black;
+}
+
 
 
 /* JUMBO-GAMES */
@@ -143,7 +157,7 @@
 }
 
 .jumbo-games-transform:hover {
-    transform: translateY(-15px);
+    transform: translateY(-10px);
 }
 /* PLAYSTATION 5 */
 
@@ -171,16 +185,45 @@
     background-color: #1F1F1F;
 }
 
+/* ESPLORA PLAYSTATION */
+
+#esplora-playstation .box-sh {
+    border-radius: 15px;
+    padding: 4px 0;
+}
+
+#esplora-playstation .box-sh:hover {
+    box-shadow: 0 0 2px 2px #ffff;
+}
+
 /*PLAISTATION PLUS */
 
 #playstation-plus {
     background-color: #BEBCBB;
 }
 
+#playstation-plus .box-sh {
+    border-radius: 20px;
+}
+
+#playstation-plus .box-sh:hover {
+    box-shadow: 0 0 2px 2px #ffff;
+}
+
 /* PLAYSTATION NOW */
 
 #playstation-now {
     background-color: #171A2C;
+}
+
+#playstation-now .box-sh {
+    box-shadow: 0 0 2px 2px white;
+    border-radius: 15px;
+    padding: 4px 0;
+}
+
+#playstation-now .box-sh:hover {
+    box-shadow: 0 0 2px 2px black;
 }
 
 /* FOOTER */
