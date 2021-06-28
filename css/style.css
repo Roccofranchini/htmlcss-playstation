@@ -275,6 +275,16 @@ footer ul li a:hover {
     background-color: #00439C;
 }
 
+#pronto-ps5 a,
+#informazioni a {
+    text-decoration: none;
+}
+
+#informazioni {
+    background-color: #EEEEEE;
+
+}
+
 
 
 
