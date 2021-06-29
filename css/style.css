@@ -95,18 +95,15 @@
     background-image: url(../img/img/jumbo-bg.png);
     background-size: cover;
     background-position: top;
-}
-
-#jumbo-2 {
-    background-image: url(../img/img/it-takes-two-hero-banner-desktop.jpg);
-    background-size: cover;
-    background-position: top;
-}
-
-#jumbo {
     height: 500px;
 }
 
+#jumbo-2 {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: top;
+    
+}
 
 .my-bg-none {
     background-color: rgba(0, 0, 0, 0);
