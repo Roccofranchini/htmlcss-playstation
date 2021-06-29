@@ -172,6 +172,7 @@
 
 #playstation5 .img-fltr:hover {
     filter: opacity(1);
+    transition: filter 1s;
 }
 
 
