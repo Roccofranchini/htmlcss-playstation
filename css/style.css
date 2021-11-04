@@ -1,90 +1,88 @@
-
 .z-1 {
-    z-index: 1;
+	z-index: 1;
 }
 
 .text-14 {
-    font-size: 12px;
+	font-size: 12px;
 }
 
 .border-radius-15 {
-    border-radius: 15px;
+	border-radius: 15px;
 }
 
 .my-w-200 {
-    width: 200px;
+	width: 200px;
 }
 
 .my-w-300 {
-    width: 300px;
+	width: 300px;
 }
 
 .my-fw-600 {
-    font-weight: 600;
+	font-weight: 600;
 }
 
 .my-h-100 {
-    height: 50px;
+	height: 50px;
 }
 
 .my-h-300 {
-    height: 400px;
+	height: 400px;
 }
 
 .my-w-400 {
-    width: 400px;
+	width: 400px;
 }
 
 .my-p-2 {
-    padding: 2px;
+	padding: 2px;
 }
 
 .my-b-4 {
-    border: 4px solid;
+	border: 4px solid;
 }
 
 .my-bc-red {
-    border-color: #DC3545;;
+	border-color: #dc3545;
 }
 
 .my-bc-blu {
-    border-color: #0D6EFD;;
+	border-color: #0d6efd;
 }
 
 .my-bc-white {
-    border-color: white;;
+	border-color: white;
 }
 
 .my-bg-light {
-    background-color: rgba(255, 255, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.4);
 }
 /* -----HEADER----- */
 
-
 #logo-sony {
-    height: 18px;
+	height: 18px;
 }
 
 #logo-play {
-    height: 40px;
+	height: 40px;
 }
 
 #header .navbar .container-fluid ul .nav-link {
-    color: black;
+	color: black;
 }
 
 #header .navbar .container-fluid ul .nav-link:hover {
-    color: #7C9EEF;
+	color: #7c9eef;
 }
 
 #header .box-sh {
-    box-shadow: 0 0 2px 2px #212529;
-    border-radius: 15px;
-    padding: 4px 0;
+	box-shadow: 0 0 2px 2px #212529;
+	border-radius: 15px;
+	padding: 4px 0;
 }
 
 #header .box-sh:hover {
-    box-shadow: 0 0 2px 2px #ffff;
+	box-shadow: 0 0 2px 2px #ffff;
 }
 
 /* -----MAIN----- */
@@ -92,246 +90,194 @@
 /* JUMBO */
 
 #jumbo {
-    background-image: url(../img/img/jumbo-bg.png);
-    background-size: cover;
-    background-position: top;
-    height: 500px;
+	background-image: url(../img/img/jumbo-bg.png);
+	background-size: cover;
+	background-position: top;
+	height: 500px;
 }
 
 #jumbo-2 {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/img/img/it-takes-two-hero-banner-desktop.jpg');
-    background-size: cover;
-    background-position: top;
-    
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(../img/img/it-takes-two-hero-banner-desktop.jpg);
+	background-size: cover;
+	background-position: top;
 }
 
 .my-bg-none {
-    background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
 }
 
-
 #jumbo .box-sh {
-    box-shadow: 0 0 2px 2px #DC3545;
-    border-radius: 15px;
-    padding: 4px 0;
+	box-shadow: 0 0 2px 2px #dc3545;
+	border-radius: 15px;
+	padding: 4px 0;
 }
 
 #jumbo .box-sh:hover {
-    box-shadow: 0 0 2px 2px black;
+	box-shadow: 0 0 2px 2px black;
 }
 
 #jumbo-2 .box-sh {
-    box-shadow: 0 0 2px 2px #DC3545;
-    border-radius: 15px;
-    padding: 4px 0;
+	box-shadow: 0 0 2px 2px #dc3545;
+	border-radius: 15px;
+	padding: 4px 0;
 }
 
 #jumbo-2 .box-sh:hover {
-    box-shadow: 0 0 2px 2px black;
+	box-shadow: 0 0 2px 2px black;
 }
-
-
 
 /* JUMBO-GAMES */
 
 .jumbo-games-active-img {
-    border: 3px solid white;
-    transition: transform 1s;
+	border: 3px solid white;
+	transition: transform 1s;
 }
 
 .jumbo-games-active-card {
-    border: 3px solid #4a9bdc;
-    transition: transform 1s;
+	border: 3px solid #4a9bdc;
+	transition: transform 1s;
 }
 
 #jumbo-games .jumbo-games-active-card:hover {
-    transform: translateY(-15px);
+	transform: translateY(-15px);
 }
 
 .jumbo-games-transform {
-    transition: transform 1s;
+	transition: transform 1s;
 }
 
 .jumbo-games-transform:hover {
-    transform: translateY(-10px);
+	transform: translateY(-10px);
 }
 /* PLAYSTATION 5 */
 
 #playstation5 .box-sh {
-    border-radius: 15px;
-    padding: 4px 0;
+	border-radius: 15px;
+	padding: 4px 0;
 }
 
 #playstation5 .box-sh:hover {
-    box-shadow: 0 0 2px 2px #ffff;
+	box-shadow: 0 0 2px 2px #ffff;
 }
 
 #playstation5 .img-fltr {
-    filter: opacity(0.5);
+	filter: opacity(0.5);
 }
 
 #playstation5 .img-fltr:hover {
-    filter: opacity(1);
-    transition: filter 1s;
+	filter: opacity(1);
+	transition: filter 1s;
 }
-
 
 /* USCITE */
 
 #nuove-uscite {
-    background-color: #1F1F1F;
+	background-color: #1f1f1f;
 }
 
 /* ESPLORA PLAYSTATION */
 
 #esplora-playstation .box-sh {
-    border-radius: 15px;
-    padding: 4px 0;
+	border-radius: 15px;
+	padding: 4px 0;
 }
 
 #esplora-playstation .box-sh:hover {
-    box-shadow: 0 0 2px 2px #ffff;
+	box-shadow: 0 0 2px 2px #ffff;
 }
 
 /*PLAISTATION PLUS */
 
 #playstation-plus {
-    background-color: #BEBCBB;
+	background-color: #bebcbb;
 }
 
 #playstation-plus .box-sh {
-    border-radius: 20px;
+	border-radius: 20px;
 }
 
 #playstation-plus .box-sh:hover {
-    box-shadow: 0 0 2px 2px #ffff;
+	box-shadow: 0 0 2px 2px #ffff;
 }
 
 /* PLAYSTATION NOW */
 
 #playstation-now {
-    background-color: #171A2C;
+	background-color: #171a2c;
 }
 
 #playstation-now .box-sh {
-    box-shadow: 0 0 2px 2px white;
-    border-radius: 15px;
-    padding: 4px 0;
+	box-shadow: 0 0 2px 2px white;
+	border-radius: 15px;
+	padding: 4px 0;
 }
 
 #playstation-now .box-sh:hover {
-    box-shadow: 0 0 2px 2px black;
+	box-shadow: 0 0 2px 2px black;
 }
 
 /* FOOTER */
 
 footer {
-    background-color: #00439C;
+	background-color: #00439c;
 }
 
 #footer-logo {
-    height: 80px;
+	height: 80px;
 }
 
 footer ul li a {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 footer ul li a:hover {
-    text-decoration: underline;
-    color: white;
+	text-decoration: underline;
+	color: white;
 }
-
 
 /* -------------SUPPORT------------- */
 
-
 #jumbo-s {
-    width: 100%;
-    height: 300px;
-    background-image: url(../img/img/supporto.png);
-    background-size: cover;
-    background-position: center;
-    padding-top: 100px;
+	width: 100%;
+	height: 300px;
+	background-image: url(../img/img/supporto.png);
+	background-size: cover;
+	background-position: center;
+	padding-top: 100px;
 }
 
 #cerca {
-    background-color: black;
+	background-color: black;
 }
 
 #cerca .form-control {
-    border-radius: 0;
-    border-width: 0 0 2px 0;
-    background-color: black;
-    display: inline-block;
-    width: 90%;
+	border-radius: 0;
+	border-width: 0 0 2px 0;
+	background-color: black;
+	display: inline-block;
+	width: 90%;
 }
 
 #sezioni {
-    
-    background-color: #00439C;
+	background-color: #00439c;
 }
 
 #pronto-ps5 a,
 #informazioni a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 #informazioni {
-    background-color: #EEEEEE;
-
+	background-color: #eeeeee;
 }
 
 #assistente-online .box-sh {
-    border-radius: 15px;
-    padding: 4px 0;
+	border-radius: 15px;
+	padding: 4px 0;
 }
 
 #assistente-online .box-sh:hover {
-    box-shadow: 0 0 2px 2px #ffff;
+	box-shadow: 0 0 2px 2px #ffff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
